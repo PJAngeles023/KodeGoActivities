@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <style>
+        h1 {
+            background-color: #7FFF00;
+            padding: 3%;
+            font-size: 1em;
+            padding-left: 2em;
+            padding-top: 2em;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            background: black;
+            color: white;
+        }
+
+        .sectionborder{
+            display: flex;
+            border: solid;
+            border-width: 1em;
+        }
+        .lifestyle {
+            width: 100%;
+        }
+        .business{
+            width: 100%;
+        }
+        .sports{
+            width: 100%;
+        }
+
+        @media screen and (max-width: 80em){
+            h1{
+                background-color: orange;
+            }
+        }
+
+        @media screen and (max-width: 70em){
+            h1{
+                background-color: blue;
+            }
+            .sports{
+                display: none;
+            }
+        }
+        @media screen and (max-width: 50em){
+            h1{
+                background-color: red;
+            }
+            .sports{
+                display: none;
+            }
+            .business{
+                display: none;
+            }
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Online Magazine</h1>
+    </header>
+    <section class="container">
+            <span>
+                <p>Home
+                About Us
+                Contact
+                </p>
+            </span>
+    </section>
+    <main class="sectionborder">
+        <section>
+            <div class="lifestyle">
+                <h2>Lifestyle</h2>
+                <p>
+                    loren ipsum dolor sit amet, consectuer adipiscing elit. Maecenas sir amet pretium urna
+                </p>
+                </div>
+        </section>
+        <section>
+            <div class="business">
+                <h2>Business</h2>
+                <p>
+                    Vivamus venenatis velit nec neque ultricies. eget elementum magna tristique.
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class="sports">
+                <h2>Sports</h2>
+                <p>
+                    Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit.
+                </p>
+            </div>
+        </section>
+    </main>   
+</body>
+</html>

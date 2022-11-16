@@ -1,0 +1,56 @@
+#resume{
+    color:black;
+    font-size:20px;
+    text-align: center;
+    padding-bottom:-20px;
+    margin-bottom:-10px;
+}
+
+#bold{
+    font-size: 20px;
+    font-style:bold Arial;
+    text-align: center;
+}
+
+#center{
+    text-align: center;
+}
+
+#right{
+    text-align: right;
+}
+
+.About{
+    color:black;
+    font-size: 30px;
+    text-align: center;
+    margin-top:-10px;
+}
+
+#skills{
+    color:black;
+    text-align: center;
+    font-style: bold;
+    font-size: 30px;
+
+}
+
+#lang{
+    color:black;
+    text-align: center;
+    font-style: bold;
+    font-size: 30px;
+
+}
+
+.center{
+    width:200px;
+    margin:0 auto;
+    text-align:left;
+}
+
+
+.bold{
+    font-weight:900;
+    font-style:italic;
+}
